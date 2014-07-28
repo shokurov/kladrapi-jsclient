@@ -255,7 +255,6 @@
                 var inputHeight = input.outerHeight();
 
                 ac.css({
-                   position: "absolute",
                    top:  inputOffset.top + inputHeight + 'px',
                    left: inputOffset.left
                 });
