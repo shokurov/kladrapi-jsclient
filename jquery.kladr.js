@@ -302,7 +302,8 @@
 
                     render(objs, query);
                     position();  
-                    ac.slideDown(50);
+                    ac.show();
+                    //ac.slideDown(50);
                     trigger('open');
                 });
             };
