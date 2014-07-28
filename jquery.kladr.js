@@ -266,6 +266,7 @@
                 var spinnerHeight = spinner.height();
 
                 spinner.css({
+                    position: "absolute",
                     top:  inputOffset.top + (inputHeight - spinnerHeight)/2 - 1,
                     left: inputOffset.left + inputWidth - spinnerWidth - 2,
                 });
